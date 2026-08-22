@@ -31879,7 +31879,9 @@
 			(width 0.1)
 			(type solid)
 		)
-		(
+		(layer "Edge.Cuts")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
+	)
 	(gr_line
 		(start 62.3062 117.804489)
 		(end 50.0 124.5)
