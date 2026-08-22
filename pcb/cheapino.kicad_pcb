@@ -31195,7 +31195,104 @@
 			(width 0.1)
 			(type solid)
 		)
+		(		(gr_line
+		(start 40.5 121.0)
+		(end 40.476394 121.485718)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(layer "Edge.Cuts")
+		(uuid "26c6ed69-03db-4e7d-8f4d-a71b1fe29753")
+	)
+(gr_line
+		(start 40.5 121.0)
+		(end 40.476394 121.485718)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9fff91ea-dafb-408a-9efd-8f126eb6f0b1")
+	)
+
+	(gr_line
+		(start 42.0 123.25)
+		(end 42.532404 123.238238)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fc743f03-54b8-4e87-b832-94e44e1ec29a")
+	)
+
+	(gr_line
+		(start 40.5 66.0)
+		(end 40.457115 65.654282)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e461d50d-e014-4c8d-8165-a31809e7e932")
+	)
+
+	(gr_line
+		(start 41.385249 64.709038)
+		(end 41.75 64.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6b2c5daf-575b-4a19-b79d-0c87e4d315af")
+	)
+
+	(gr_line
+		(start 59.444196 63.463643)
+		(end 59.445056 63.115664)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "19072335-d44f-4b90-8f55-5389696bc80c")
+	)
+
+	(gr_line
+		(start 60.739597 61.922065)
+		(end 61.25 61.573308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d256c4d-328e-45e0-a8da-aab7e2f95e64")
+	)
+
+	(gr_line
+		(start 59.483081 121.0)
+		(end 59.395416 121.333957)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e0eeddc1-b76f-46d5-aaab-d6646c14a24c")
+	)
+
+	(gr_line
+		(start 61.5 117.75)
+		(end 62.0 117.828012)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f8337fbd-cb55-49ba-ad07-4da1d238bfb7")
+	)
+layer "Edge.Cuts")
 		(uuid "fca3bc70-8e79-4860-b567-e24be1cf7555")
 	)
 	(gr_line
