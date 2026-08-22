@@ -676,7 +676,7 @@
 		(footprint "project_footprints:Kailh_socket_MX_optional_reversible"
 		(layer "F.Cu")
 		(uuid "c6bc9a1e-6a3f-4d77-b892-cc66b3dd5265")
-		(at 50.0118 70.3326)
+		(at 50.0118 73.3326)
 		(descr "MX-style keyswitch with support for reversible optional Kailh socket")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "K19"
@@ -1671,7 +1671,7 @@
 	(footprint "project_footprints:Kailh_socket_MX_optional_reversible"
 		(layer "F.Cu")
 		(uuid "1a50de90-70ac-44e5-bd7b-7f7ce1acea08")
-		(at 50.0118 89.3318)
+		(at 50.0118 92.3318)
 		(descr "MX-style keyswitch with support for reversible optional Kailh socket")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "K20"
@@ -2666,7 +2666,7 @@
 	(footprint "project_footprints:Kailh_socket_MX_optional_reversible"
 		(layer "F.Cu")
 		(uuid "2d8400b9-1884-4d69-bb64-8743b3a07144")
-		(at 50.0118 108.3310)
+		(at 50.0118 111.3310)
 		(descr "MX-style keyswitch with support for reversible optional Kailh socket")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "K21"
@@ -3661,7 +3661,7 @@
 	(footprint "keebio:Diode-dual"
 		(layer "F.Cu")
 		(uuid "9b034b4b-200d-4e1f-9820-7858394823fd")
-		(at 50.9486 80.4926 180)
+		(at 50.9486 83.4926 180)
 		(property "Reference" "D22"
 			(at -0.0254 1.4 0)
 			(layer "F.SilkS")
@@ -3944,7 +3944,7 @@
 	(footprint "keebio:Diode-dual"
 		(layer "F.Cu")
 		(uuid "2a29417b-bd82-4fe3-bf75-e61a38bdc1ac")
-		(at 50.9486 99.4918 180)
+		(at 50.9486 102.4918 180)
 		(property "Reference" "D23"
 			(at -0.0254 1.4 0)
 			(layer "F.SilkS")
@@ -4227,7 +4227,7 @@
 	(footprint "keebio:Diode-dual"
 		(layer "F.Cu")
 		(uuid "e70fd56a-abed-420c-bd01-ac0b92382cd7")
-		(at 50.9486 118.4910 180)
+		(at 50.9486 121.4910 180)
 		(property "Reference" "D24"
 			(at -0.0254 1.4 0)
 			(layer "F.SilkS")
@@ -32051,9 +32051,67 @@
 		(layer "Edge.Cuts")
 		(uuid "5a11de8c-3197-461d-b9bc-53c573aced37")
 	)
+	
 	(gr_line
 		(start 60.097766 115.541608)
+		(end 48.0 118.0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a439623-425b-42ee-92d4-2283e841ef53")
+	)
+	(gr_arc
+		(start 48.0 118.0)
+		(mid 44.0 116.5)
+		(end 42.0 113.0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "29e3671f-b4c5-428e-ab0a-0f0859530f40")
+	)
+	(gr_line
+		(start 42.0 113.0)
+		(end 42.0 70.0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d32f6032-8505-402e-8560-1dc5a3c1871d")
+	)
+	(gr_arc
+		(start 42.0 70.0)
+		(mid 44.0 66.5)
+		(end 48.0 65.0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8ebdbc74-ddcc-46bd-8010-4bd04376c247")
+	)
+	(gr_line
+		(start 48.0 65.0)
 		(end 60.096401 64.9732)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2c063c69-2d7b-4815-be1c-bb0387f4f824")
+	)
+(gr_line
+		(start 60.097766 115.541608)
+		(end 60.096401 64.9732)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -32972,7 +33030,7 @@
 		)
 	)
 	(segment
-		(start 43.72 65.25)
+		(start 43.72 68.2500)
 		(end 46.2 67.79)
 		(width 0.25)
 		(layer "F.Cu")
@@ -32996,7 +33054,7 @@
 		(uuid "e7f5b017-92be-43cd-b1bd-370bfcff83cb")
 	)
 	(segment
-		(start 43.72 84.25)
+		(start 43.72 87.2500)
 		(end 46.2 86.79)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33020,7 +33078,7 @@
 		(uuid "7083a566-7d52-4b60-bcd6-dcc4c2d9a571")
 	)
 	(segment
-		(start 43.72 103.25)
+		(start 43.72 106.2500)
 		(end 46.2 105.79)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33037,14 +33095,14 @@
 	)
 	(segment
 		(start 46.2 110.87)
-		(end 43.72 113.41)
+		(end 43.72 116.4100)
 		(width 0.25)
 		(layer "B.Cu")
 		(net 25)
 		(uuid "e10a2987-29a1-40ca-85cf-170e05ad9d23")
 	)
 	(segment
-		(start 52.55 65.25)
+		(start 52.55 68.2500)
 		(end 57.57 67.79)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33052,7 +33110,7 @@
 		(uuid "0389ee55-bf58-4065-94b5-27d7c80385d9")
 	)
 	(segment
-		(start 52.55 65.25)
+		(start 52.55 68.2500)
 		(end 52.55 75.41)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33068,7 +33126,7 @@
 		(uuid "91aac97d-5ba3-4385-8301-adc5fe12f9d3")
 	)
 	(segment
-		(start 52.55 84.25)
+		(start 52.55 87.2500)
 		(end 57.57 86.79)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33076,7 +33134,7 @@
 		(uuid "f074f015-aa76-4a72-9bd5-906e1d16d2f1")
 	)
 	(segment
-		(start 52.55 84.25)
+		(start 52.55 87.2500)
 		(end 52.55 94.41)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33092,7 +33150,7 @@
 		(uuid "518676a7-dff0-4341-83f2-d057be31a056")
 	)
 	(segment
-		(start 52.55 103.25)
+		(start 52.55 106.2500)
 		(end 57.57 105.79)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33100,8 +33158,8 @@
 		(uuid "77d32250-9fae-4828-8974-d0258dccec7f")
 	)
 	(segment
-		(start 52.55 103.25)
-		(end 52.55 113.41)
+		(start 52.55 106.2500)
+		(end 52.55 116.4100)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 47)
@@ -33109,14 +33167,14 @@
 	)
 	(segment
 		(start 57.57 110.87)
-		(end 52.55 113.41)
+		(end 52.55 116.4100)
 		(width 0.25)
 		(layer "B.Cu")
 		(net 47)
 		(uuid "3f31f763-0692-4d2c-9d77-3af799d86d48")
 	)
 	(segment
-		(start 43.72 113.41)
+		(start 43.72 116.4100)
 		(end 43.72 115.5)
 		(width 0.25)
 		(layer "B.Cu")
@@ -33156,15 +33214,15 @@
 		(uuid "543754fe-9fdd-4b3e-86c7-5e62ba2b6534")
 	)
 	(segment
-		(start 43.72 84.25)
-		(end 41.6 84.25)
+		(start 43.72 87.2500)
+		(end 41.6 87.2500)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 23)
 		(uuid "0b02ea0c-ae99-4e9c-95da-25334172003d")
 	)
 	(segment
-		(start 41.6 84.25)
+		(start 41.6 87.2500)
 		(end 41.6 122.0)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33188,15 +33246,15 @@
 		(uuid "dbebae09-3807-4486-8667-f99806458626")
 	)
 	(segment
-		(start 43.72 65.25)
-		(end 42.2 65.25)
+		(start 43.72 68.2500)
+		(end 42.2 68.2500)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 27)
 		(uuid "2b3258b7-9c36-4114-ac67-26536618cd63")
 	)
 	(segment
-		(start 42.2 65.25)
+		(start 42.2 68.2500)
 		(end 42.2 108.0)
 		(width 0.25)
 		(layer "F.Cu")
@@ -33396,15 +33454,15 @@
 		(uuid "3c9e671b-b705-4c88-ac11-4e2cb397e527")
 	)
 	(segment
-		(start 52.55 113.41)
-		(end 47.05 113.41)
+		(start 52.55 116.4100)
+		(end 47.05 116.4100)
 		(width 0.25)
 		(layer "B.Cu")
 		(net 47)
 		(uuid "725e757c-7926-4835-a849-bf5517e14100")
 	)
 	(segment
-		(start 47.05 113.41)
+		(start 47.05 116.4100)
 		(end 47.05 118.49)
 		(width 0.25)
 		(layer "B.Cu")
