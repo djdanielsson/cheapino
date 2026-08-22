@@ -31934,9 +31934,6 @@
 		(layer "Edge.Cuts")
 		(uuid "2f44fd4b-d649-44a9-80e4-54962e765bac")
 	)
-layer "Edge.Cuts")
-		(uuid "07e39fa6-3e54-444c-af0b-05161db40290")
-	)
 	(gr_arc
 		(start 177.185691 82.985273)
 		(mid 176.90793 83.620631)
