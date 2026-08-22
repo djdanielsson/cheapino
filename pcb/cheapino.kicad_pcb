@@ -38633,7 +38633,7 @@
 		(uuid "da2eefc6-2bfd-4e2f-876a-f49092cb7716")
 	)
 	(segment
-		(start 84.2 122)
+		(start 84.2 105)
 		(end 84.2 95.8)
 		(width 0.25)
 		(layer "B.Cu")
