@@ -31882,7 +31882,28 @@
 		(layer "Edge.Cuts")
 		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
 	)
+	
 	(gr_line
+		(start 62.3062 117.804489)
+		(end 77.241392 117.828012)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "66391011-d823-4063-9b8c-17225a66a854")
+	)
+	(gr_line
+		(start 64.2112 61.175373)
+		(end 77.012788 61.573308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "31390405-92f2-4966-9384-61059511af05")
+	)
+(gr_line
 		(start 62.3062 117.804489)
 		(end 50.0 124.5)
 		(stroke
