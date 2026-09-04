@@ -38139,26 +38139,7 @@
 		(net "COL_2")
 		(uuid "c1a99ac1-38d7-4e2c-b400-4b5e6551be6f")
 	)
-	(via
-		(at 123.0376 87.9227)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "COL_2")
-		(uuid "e3426953-d134-43f6-80ab-65b705ebd757")
-	)
-	(arc
+		(arc
 		(start 162.681047 99.015153)
 		(mid 162.57266 99.177365)
 		(end 162.5346 99.368707)
@@ -39269,25 +39250,7 @@
 		(net "COL_3")
 		(uuid "3bb51f7a-95ff-4e01-a1ad-d9b8b59fe9f6")
 	)
-	(via
-		(at 43.72 115.5)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "COL_3")
-		(uuid "99e693ab-f985-4c3c-b966-7d4688cba27c")
-	)
-	(via
+		(via
 		(at 167.9448 95.7834)
 		(size 0.8)
 		(drill 0.4)
@@ -43632,6 +43595,25 @@
 		(uuid "e4f67245-d323-4a50-9135-0f71728fe76c")
 	)
 	(via
+		(at 107.62 85.078)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "COL_2")
+		(uuid "ceb71b7d-a4d0-4c30-acea-20904ff13f03")
+	)
+	(via
 		(at 140.208 91.44)
 		(size 0.8)
 		(drill 0.4)
@@ -44790,7 +44772,8 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
-			(island_removal_mode 0)
+			(island_removal_mode 1)
+			(island_area_min 10)
 		)
 		(polygon
 			(pts
